@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding-left: 200px;
+  padding-right: 200px;
+  background: #e5ccff;
+  font-size: 25px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  background: #e5ccff;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="images\JoshHommue.png" alt="Albums" style="width:1350px;height:800px;">
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>BIOGRAPHY</h2>
+      <h5>31st October, 2023</h5>
+      <p>Josh Homme was born in 1973 on May 17th, California. He is known for his music career, being the founder of Queens of the Stone Age, and touring all over  the globe, playing with a variety of bands 
+	     Homme was raised in a very musical family, with both his parents having played in a country band and raising him on different genres.</p>
+    </div>
+    <div class="card">
+      <h2>CAREER</h2>
+      <h5>31st October, 2023</h5>
+      <p>Josh Homme began work on his grandfather’s farm at the age of 12, and continued to work on it till he was 25, because in his own words, “I didn't want to lose grip on reality.”
+      During his work on the farm, he played in his first band Autocracy in 1985, at the age of 12. After minor success in the band, he formed Kyuss in 1987, going on to gain a cult following and getting signed with a label. Once his signing expired, Homme then formed Queens of the Stone Age, arguably his most successful band, in which he stills plays into this day.</p>
+    </div>
+    <div class="card">
+      <h2>BELIEFS</h2>
+      <h5>31st October, 2023</h5>
+      <p>Josh Homme considers himself a “fallen libertarian,” He discusses how the idea of using his influence to tell people how to act  or vote, isn’t in his interests and dislikes it, he likens his music to an "ice cream parlour or arcade,” being fun and interesting.
+         In the late 2010’s, Homme began collaborating more with notably liberal artists such as Run the Jewels, and displaying a distaste for Donald Trump, believing him to be an inept president. Homme’s beliefs are all very modern and social, with him believing in keeping fun sacred and to let people enjoy the music.</p>
+    </div>
+    <div class="card">
+      <h2>ATTITUDE TOWARDS LIFE</h2>
+      <h5>31st October, 2023</h5>
+      <p>Josh Homme’s attitude towards life extends to the events that affected him the most, including when he had to be resuscitated during leg surgery, living with depression and being unable to produce music for 2 years and when he was diagnosed with a form of cancer in 2022.
+         Homme displays a very positive attitude in his work and music, being able to continue forward in life by writing songs about his experiences and keeping the spirits of people around him up.</p>
+    </div>
+    <div class="card">
+      <h2>VALUES</h2>
+      <h5>31st October, 2023</h5>
+      <p>Homme’s values are few and far between, valuing family, music, and mental health, having co-founded the charity organisation Sweet Stuff in 2013, aiming to help fellow musicians and others in the music industry with illness and disability.
+         he calls himself a libertarian and values everyone’s ability to self-govern and helping yourself before helping others, developing a pro mental-health attitude.</p>
+    </div>
+    <div class="card">
+      <h2>MY RELATIONSHIP</h2>
+      <h5>31st October, 2023</h5>
+      <p>Blues off-chord, rock and roll, heavy rifts; this is what I grew up listening to, and it influences how I play my instruments every day. From his heavy distorted guitar in Kyuss, his blues riffs in Eagles of Death Metal, his psychedelic lines in Them Crooked Vultures, and his unique play style in Queens of The Stone Age, I have been hearing his works stream from my father’s shed and car radio every day and have his influence not only in my own music, but in my life as a person. Homme’s idea of self-governance and his pro-mental health stance has guided my life and core values, a role-model for inspiration and  his values in health and help. I apply these in how I think, how I feel, and how I actively achieve and live in years during high school, and I hope this goes on past this period.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Fun Fact!</h2>
+      <img src="images\davejosh.jpg" alt="Albums" style="width:300px;height:350px;">
+      <p>Josh Homme and Dave Grohl have been friends since the early 1990s, and frequently collab on projects.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
